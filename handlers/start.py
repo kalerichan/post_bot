@@ -1,7 +1,7 @@
 from aiogram import Router, F
 from aiogram.types import Message
 from aiogram.filters import Command
-from data.db import db
+from app.data.db import db
 from keyboards.inline import get_channels_keyboard
 
 router = Router()
